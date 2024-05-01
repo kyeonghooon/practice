@@ -1,4 +1,4 @@
-package basic.practice;
+package practice;
 
 public class Dice {
 	private int value;

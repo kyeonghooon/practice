@@ -1,4 +1,4 @@
-package basic.practice;
+package practice;
 
 class Animal{
 	public static void A() {
