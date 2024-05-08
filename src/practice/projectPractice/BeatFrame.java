@@ -26,7 +26,7 @@ public class BeatFrame extends JFrame {
 		
 		while (flag) {
 			try {
-				Thread.sleep(890);
+				Thread.sleep(428, 5714);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -41,7 +41,8 @@ public class BeatFrame extends JFrame {
 		setContentPane(backgroundMap);
 		setSize(1000, 600);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		new BGM();
+		BGM bgm = new BGM();
+		bgm.gainControl.setValue(-30.0f);
 	}
 
 	private void setInitLayout() {
