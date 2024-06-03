@@ -13,7 +13,7 @@ public class Bubble extends JLabel {
 	public Bubble() {
 		initData();
 		setInitLayout();
-
+		 
 		new Thread(() -> {
 			boolean flag = true;
 			while (flag) {
